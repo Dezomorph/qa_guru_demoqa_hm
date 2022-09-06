@@ -46,51 +46,18 @@ public class DemoqaFormTest {
 
 
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+        $(".table-responsive").shouldHave(text("Human Humanov"));
+        $(".table-responsive").shouldHave(text("hum@nov.com"));
+        $(".table-responsive").shouldHave(text("Other"));
+        $(".table-responsive").shouldHave(text("9080706050"));
+        $(".table-responsive").shouldHave(text("13 March,2003"));
+        $(".table-responsive").shouldHave(text("Biology"));
+        $(".table-responsive").shouldHave(text("Sports, Reading, Music"));
+        $(".table-responsive").shouldHave(text("mem.jpg"));
+        $(".table-responsive").shouldHave(text("Some address 1"));
+        $(".table-responsive").shouldHave(text("Uttar Pradesh Lucknow"));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //$("#output #name").shouldHave(text("Egor"));
-//        $("#output").$("#name").shouldHave(text("Egor"));
-//        $("#output").shouldHave(text("Egor"));
-//        $("#name").shouldHave(text("Egor"));
-        //$("#output #email").shouldHave(text("Egor@egor.com"));
-        //$("#output #currentAddress").shouldHave(text("Some address 1"));
-        //$("#output #permanentAddress").shouldHave(text("Another address 1"));
     }
 
 }
